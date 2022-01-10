@@ -1,0 +1,42 @@
+body {
+    background-image: linear-gradient(to right, rgb(255 255 255), rgb(141 103 103));
+}
+#navbar {
+	display: flex;
+	background-color: gray;
+}
+a {
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+}
+h1,h2 {
+	text-align: center;
+}
+#welcome-section {
+	margin-top: 5px;
+}
+.welcome {
+	text-align: center;
+}
+
+#projects {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.project-tile {
+	margin-left: 11rem;
+}
+.explain {
+	text-align: center;
+}
+.link {
+	display: block;
+	color: blue;
+	text-align: center;
+}
+.footer {
+	display: block;
+	text-align: center;
+}
